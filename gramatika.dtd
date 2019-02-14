@@ -1,0 +1,28 @@
+<!ELEMENT zooloski-vrtovi (zooloski-vrt*)>
+
+<!ELEMENT zooloski-vrt (ime, adresa, cijena-ulaznice, parking-mjesto?, dozvoljeno-djeci?, radi-ljeti?, radi-zimi?, dozvoljeno-hranjenje?, edukacija?, broj-posjetitelja, broj-vrsta?, mail-adresa*)>
+
+<!ATTLIST zooloski-vrt id CDATA #REQUIRED>
+
+<!ELEMENT ime (#PCDATA)>
+<!ATTLIST zooloski-vrt kontinent (Europa|Azija|Australija|Afrika|Sjeverna_Amerika|Juzna_Amerika) #REQUIRED>
+<!ELEMENT adresa (drzava, mjesto, ulica)>
+    <!ELEMENT drzava (#PCDATA)>
+    <!ELEMENT mjesto (#PCDATA)>
+    <!ELEMENT ulica (#PCDATA)>
+        <!ATTLIST ulica kucni-broj CDATA #REQUIRED>
+<!ELEMENT cijena-ulaznice (#PCDATA)>
+    <!ATTLIST cijena-ulaznice cijena (jeftino|srednje|skupo) #REQUIRED>
+<!ELEMENT parking-mjesto (#PCDATA)>
+
+<!ELEMENT dozvoljeno-djeci (#PCDATA)>
+<!ELEMENT radi-ljeti (#PCDATA)>
+<!ELEMENT radi-zimi (#PCDATA)>
+<!ELEMENT dozvoljeno-hranjenje (#PCDATA)>
+<!ELEMENT edukacija (#PCDATA)>
+
+<!ELEMENT broj-posjetitelja (#PCDATA)>
+    <!ATTLIST broj-posjetitelja posjecenost (malo|srednje|puno) #REQUIRED>
+<!ELEMENT broj-vrsta (#PCDATA)>
+    <!ATTLIST broj-vrsta vrste (malo|srednje|puno) #REQUIRED>
+<!ELEMENT mail-adresa (#PCDATA)>

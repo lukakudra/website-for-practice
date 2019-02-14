@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE zooloski-vrtovi SYSTEM "gramatika.dtd">
+<?xml-stylesheet type="text/xsl" href="pretvorba.xsl"?>
+<zooloski-vrtovi>
+    <zooloski-vrt id="19978643313" kontinent="Sjeverna_Amerika">
+        <ime>Bronx Zoo</ime>
+        <adresa>
+            <drzava>SAD</drzava>
+            <mjesto>New York</mjesto>
+            <ulica kucni-broj="2300">Southern Blvd</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="srednje">20</cijena-ulaznice>
+        <parking-mjesto></parking-mjesto>
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>ne</radi-zimi>
+        <dozvoljeno-hranjenje>ne</dozvoljeno-hranjenje>
+        <edukacija>da</edukacija>
+        
+        <broj-posjetitelja posjecenost="puno">120000</broj-posjetitelja>
+        <broj-vrsta vrste="puno">600</broj-vrsta>
+        <mail-adresa>bronxzoo@ny.com</mail-adresa>
+        <mail-adresa>zoo@bronx.com</mail-adresa>
+        <mail-adresa>saveanimals@ny.org</mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="352975967242" kontinent="Europa">
+        <ime>Edinburgh Zoo</ime>
+        <adresa>
+            <drzava>Ujedinjeno Kraljevstvo</drzava>
+            <mjesto>Edinburgh</mjesto>
+            <ulica kucni-broj="134">Corstorphine Road</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="jeftino">19</cijena-ulaznice>
+        <parking-mjesto>ne</parking-mjesto>
+        
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>ne</radi-zimi>
+        <dozvoljeno-hranjenje>da</dozvoljeno-hranjenje>
+        <edukacija>ne</edukacija>
+        
+        <broj-posjetitelja posjecenost="malo">9000</broj-posjetitelja>
+        <broj-vrsta vrste="malo">120</broj-vrsta>
+        <mail-adresa></mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="39929117431" kontinent="Australija">
+        <ime>Australia Zoo</ime>
+        <adresa>
+            <drzava>Australija</drzava>
+            <mjesto>Beerwah</mjesto>
+            <ulica kucni-broj="1638">Steve Irwin Way</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="srednje">25</cijena-ulaznice>
+        <parking-mjesto>da</parking-mjesto>
+        
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>da</radi-zimi>
+        <dozvoljeno-hranjenje>da</dozvoljeno-hranjenje>
+        <edukacija>da</edukacija>
+        
+        <broj-posjetitelja posjecenost="srednje">70000</broj-posjetitelja>
+        <broj-vrsta></broj-vrsta>
+        <mail-adresa>aussiezoo@au.com</mail-adresa>
+        <mail-adresa>kangaroozoo@az.org</mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="174575967050" kontinent="Azija">
+        <ime>Singapore Zoo</ime>
+        <adresa>
+            <drzava>Singapur</drzava>
+            <mjesto>Mandai</mjesto>
+            <ulica kucni-broj="80">Mandai Lake Road</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="skupo">35</cijena-ulaznice>
+        <parking-mjesto>ne</parking-mjesto>
+        
+        <dozvoljeno-djeci>ne</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>da</radi-zimi>
+        <dozvoljeno-hranjenje></dozvoljeno-hranjenje>
+        <edukacija>ne</edukacija>
+        
+        <broj-posjetitelja posjecenost="srednje">30000</broj-posjetitelja>
+        <broj-vrsta vrste="malo">120</broj-vrsta>
+        <mail-adresa>singaporezoo@sz.com</mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="142063885828007" kontinent="Juzna_Amerika">
+        <ime>Sao Paulo Zoo</ime>
+        <kontinent>Juzna Amerika</kontinent>
+        <adresa>
+            <drzava>Brazil</drzava>
+            <mjesto>Sao Paulo</mjesto>
+            <ulica kucni-broj="4241">Avenida Miguel Estefano</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="jeftino">15</cijena-ulaznice>
+        <parking-mjesto>da</parking-mjesto>
+        
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>da</radi-zimi>
+        <dozvoljeno-hranjenje>ne</dozvoljeno-hranjenje>
+        <edukacija>ne</edukacija>
+        
+        <broj-posjetitelja posjecenost="srednje">45000</broj-posjetitelja>
+        <broj-vrsta vrste="puno">350</broj-vrsta>
+        <mail-adresa></mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="266510962556" kontinent="Europa">
+        <ime>Zoo Berlin</ime>
+        <adresa>
+            <drzava>Njemačka</drzava>
+            <mjesto>Berlin</mjesto>
+            <ulica kucni-broj="8">Hardenbergplatz</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="skupo">30</cijena-ulaznice>
+        <parking-mjesto>da</parking-mjesto>
+        
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>da</radi-ljeti>
+        <radi-zimi>ne</radi-zimi>
+        <dozvoljeno-hranjenje>da</dozvoljeno-hranjenje>
+        <edukacija>da</edukacija>
+        
+        <broj-posjetitelja posjecenost="srednje">80000</broj-posjetitelja>
+        <broj-vrsta vrste="srednje">275</broj-vrsta>
+        <mail-adresa>berlinzoo@de.com</mail-adresa>
+        <mail-adresa>zoo@berlin.org</mail-adresa>
+    </zooloski-vrt>
+    <zooloski-vrt id="28896772146" kontinent="Sjeverna_Amerika">
+        <ime>San Diego Zoo</ime>
+        <adresa>
+            <drzava>SAD</drzava>
+            <mjesto>San Diego</mjesto>
+            <ulica kucni-broj="2920">Zoo Dr</ulica>
+        </adresa>
+        <cijena-ulaznice cijena="jeftino">18</cijena-ulaznice>
+        <parking-mjesto>da</parking-mjesto>
+        
+        <dozvoljeno-djeci>da</dozvoljeno-djeci>
+        <radi-ljeti>ne</radi-ljeti>
+        <radi-zimi>da</radi-zimi>
+        <dozvoljeno-hranjenje>da</dozvoljeno-hranjenje>
+        <edukacija>da</edukacija>
+        
+        <broj-posjetitelja posjecenost="srednje">87000</broj-posjetitelja>
+        <broj-vrsta vrste="srednje">280</broj-vrsta>
+        <mail-adresa>sandiegozoo@ca.com</mail-adresa>
+    </zooloski-vrt>
+</zooloski-vrtovi>

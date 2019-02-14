@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Pretraživanje zooloških vrtova</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="dizajn.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <div class="slon">
+                <img src="elephant.png" alt="picture-of-elephant">
+            </div>
+            <h1>Zoološki vrtovi u svijetu</h1>
+            <div class="slon-flipped">
+                <img src="elephant-flipped.png" alt="picture-of-elephant-flipped">
+            </div>
+        </header>
+
+        <div class="navigacija-obrazac">
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Početna stranica</a>
+                    </li>
+                    <li class="pretrazivanje">
+                        <a href="obrazac.html">Pretraživanje</a>
+                    </li>
+                    <li>
+                        <a href="podaci.xml">Podaci</a>
+                    </li>
+                    <li>
+                        <a href="http://www.fer.unizg.hr/predmet/or">Otvoreno računarstvo</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="http://www.fer.unizg.hr/">FER</a>
+                    </li>
+                    <li>
+                        <a href="mailto:luka.kudra@gmail.com">Mail kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+
+        <article>
+            <h2>Obrazac za pretraživanje</h2>
+
+            <div class="obrazac">
+                <form action="pretraga.php" method="get" name="pretraga">
+                    <table>
+                        <tr>
+                            <th>Ime:</th>
+                            <td colspan="2">
+                                <input type="text" name="ime" class="text-input">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Kontinent:</th>
+                            <td colspan="2">
+                                <select name="kontinent[]" multiple class="multiple-select">
+                                    <option value="Europa">Europa</option>
+                                    <option value="Azija">Azija</option>
+                                    <option value="Australija">Australija</option>
+                                    <option value="Afrika">Afrika</option>
+                                    <option value="Sjeverna_Amerika">Sjeverna Amerika</option>
+                                    <option value="Juzna_Amerika">Južna Amerika</option>
+
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="2">Adresa:</th>
+                            <td>Država:</td>
+                            <td>
+                                <input type="text" name="drzava" class="text-input">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Mjesto:</td>
+                            <td>
+                                <input type="text" name="mjesto" class="text-input">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Cijena ulaznice [&dollar;]:</th>
+                            <td colspan="2">
+                                <select name="cijena" class="select">
+                                    <option value="">Odaberite opciju</option>
+                                    <option value="jeftino">1 - 20</option>
+                                    <option value="srednje">20 - 30</option>
+                                    <option value="skupo">30 +</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Parking mjesto:</th>
+                            <td colspan="2">
+                                <input type="radio" name="parking-mjesto" value="da">
+                                <label>Da</label>
+                                <input type="radio" name="parking-mjesto" value="ne">
+                                <label>Ne</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th rowspan="5">Pravila:</th>
+                            <td>
+                                <input type="checkbox" name="dozvoljeno-djeci" value="da">
+                                <label>Dozvoljen ulaz djeci mlađoj od 5 godina</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="radi-zimi" value="da">
+                                <label>Radi preko zime</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="radi-ljeti" value="da">
+                                <label>Radi preko ljeta</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="dozvoljeno-hranjenje" value="da">
+                                <label>Dozvoljeno hranjenje životinja</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="checkbox" name="edukacija" value="da">
+                                <label>Edukacija o životinjama</label>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Broj posjetitelja godišnje:</th>
+                            <td colspan="2">
+                                <select name="posjecenost" class="select">
+                                    <option value="">Odaberite opciju</option>
+                                    <option value="malo">0 - 10 000</option>
+                                    <option value="srednje">10 000 - 100 000</option>
+                                    <option value="puno">100 000 +</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th>Broj životinjskih vrsta:</th>
+                            <td colspan="2">
+                                <select name="vrste" class="select">
+                                    <option value="">Odaberite opciju</option>
+                                    <option value="malo">1 - 200</option>
+                                    <option value="srednje">200 - 300</option>
+                                    <option value="puno">300 +</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td colspan="2">
+                                <button type="submit" value="pretrazi" class="submit-button">Pretraži</button>
+                                <button type="reset" value="resetiraj" class="reset-button">Reset</button>
+                            </td>
+                        </tr>
+
+                    </table>
+                </form>
+            </div>
+        </article>
+        <footer>
+            <p>Autor: Luka Kudra</p>
+            <p>Fakultet elektrotehnike i računarstva, Zagreb</p>
+        </footer>
+    </div>
+</body>
+
+</html>

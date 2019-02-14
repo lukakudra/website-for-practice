@@ -1,0 +1,309 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(68, 25, 15);
+    margin: 0px;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    padding: 1em;
+    color: #ABA186;
+    background-color: rgb(42, 79, 25);
+    clear: left; 
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    text-align: center;
+}
+
+header img {
+    width: 2.4%;
+}
+
+.slon {
+    display: inline;
+    margin-right: 20px;
+}
+
+.slon-flipped {
+    display: inline;
+    margin-left: 18px;
+}
+
+footer {
+    padding: 1em;
+    color: #ABA186;
+    background-color: rgb(42, 79, 25);
+    clear: left;
+    text-align: center;
+}
+
+a:link {
+    color: yellow;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+a:visited {
+    color: #E28D2E;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+li {
+    margin-top: 10px;
+}
+
+.pocetna {
+    font-weight: 900;
+}
+
+nav {
+    float: left;
+    width: 250px;
+    margin: 0;
+    padding: 1em;
+    height: 100%;
+    background-color: rgb(68, 25, 15);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul a {
+    color: white;
+    padding: 1em;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul a:link {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+nav ul a:visited {
+    color: white;
+    text-decoration: none;
+    font-style: normal;
+}
+
+nav ul a:hover {
+    background-color: #E28D2E;
+    color: black;
+}
+
+article {
+    color: white;
+    margin-left: 170px;
+    padding: 1em;
+    overflow: hidden;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(giraffe.jpg);
+    height: 100%;
+}
+
+.tablica table {
+    width: 50%;
+    background-color: white;
+}
+
+.tablica table, .tablica th, .tablica td {
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+.tablica th {
+    background-color: rgb(42, 79, 25);
+    color: #ABA186;;
+}
+
+.tablica table tr:nth-child(odd) td{
+    background-color: rgb(206, 206, 206);
+}
+
+th, td {
+    padding: 15px;
+}
+
+/* =================== OBRAZAC ==================== */
+
+.pretrazivanje {
+    font-weight: 900;
+}
+
+.obrazac table {
+    width: 80%;
+}
+
+.obrazac table, .obrazac th, .obrazac td {
+    border: 0px;
+    border-collapse: collapse;
+    color: white;
+}
+
+.submit-button {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.reset-button {
+    background-color: rgb(206, 206, 206);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.submit-button:hover {
+    background-color: #E28D2E;
+    color: white;
+}
+
+.reset-button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.select {
+    border: none;
+    padding: 2px;
+    font-size: 14px;
+}
+
+.multiple-select {
+    border: none;
+    font-size: 14px;
+}
+
+.text-input {
+    font-size: 14px;
+}
+
+/* ========================= XML PODACI ========================= */
+
+.podaci-xml {
+    font-weight: 900;
+}
+
+.podaci {
+    height: 100%;
+}
+
+.podaci table {
+    width: 95%;
+    background-color: white;
+}
+
+.podaci table, .podaci th, .podaci td {
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+.podaci th {
+    background-color: rgb(42, 79, 25);
+    color: #ABA186;;
+}
+
+.podaci table tr:nth-child(odd) td{
+    background-color: rgb(206, 206, 206);
+}
+
+
+/* ======================= PHP PRETRAGA ======================= */
+
+.pretrazivanje {
+    height: 100%;
+}
+
+.pretrazivanje table {
+    width: 95%;
+    background-color: white;
+}
+
+.pretrazivanje table, .pretrazivanje th, .pretrazivanje td {
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+.pretrazivanje th {
+    background-color: rgb(42, 79, 25);
+    color: #ABA186;;
+}
+
+/* .pretrazivanje table tr:nth-child(odd) td{
+    background-color: rgb(206, 206, 206);
+} */
+
+.pretrazivanje td {
+    font-weight: 400;
+}
+
+.hiperveze a:link {
+    color: blue;
+    font-style: italic;
+    text-decoration: none;
+} 
+
+.hiperveze a:visited {
+    color: red;
+    font-style: italic;
+    text-decoration: none;
+}
+
+
+/* ========================= PHP DETALJI ============================== */
+
+.detaljnaPretraga a:link {
+    color: blue;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+.detaljnaPretraga a:visited {
+    color: red;
+    font-style: normal;
+    text-decoration: underline;
+}
+
+#detalji-podaci {
+    margin-top: 200px;
+    color: black;
+    font-size: 16px;
+    border-radius: 25px;
+    background-color: white;
+    border: 5px solid #E28D2E;
+    padding: 20px;
+}
